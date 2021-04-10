@@ -9,7 +9,7 @@ h3{
     padding: 15px;
     max-width: fit-content;
 }
-body{
+#home_page{
     background-image: url("bg1.jpg");
     background-size: 100% 600px;
     background-repeat: no-repeat;
@@ -33,3 +33,14 @@ body{
 		border-radius: 15px;
         width: 100%;
 	}
+#output{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+.body_background{
+    background-color: lightblue;
+}
