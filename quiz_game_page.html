@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="style.css">
         <script src="quiz_game_page.js"></script>
     </head>
-    <body class="body_background">
+    <body class="body_background"  onload="update()">
         <h4 id="player1_name"></h4><span id="player1_score"></span>
         <br>
         <h4 id="player2_name"></h4><span id="player2_score"></span>
@@ -29,7 +29,7 @@
                 <h3 class="btn-warning">Number 2</h3>
                 <input type="text" id="number2" class="form-control" placeholder="Number 2">
                 <br><br>
-                <button style="width: 30%;" class="btn btn-success" onclick="send()">Send</button>
+                <button  onclick="send()" style="width: 30%;" class="btn btn-success">Send</button>
             </center>
         </div>
     </body>

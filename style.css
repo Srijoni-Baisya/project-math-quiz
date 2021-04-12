@@ -44,3 +44,11 @@ h3{
 .body_background{
     background-color: lightblue;
 }
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#number1 , #number2 {
+    width: 60%;
+}
